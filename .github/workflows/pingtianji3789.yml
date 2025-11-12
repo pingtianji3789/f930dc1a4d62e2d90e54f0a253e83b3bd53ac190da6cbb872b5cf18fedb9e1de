@@ -1,0 +1,26 @@
+name: pingtianji3789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pingtianji3789
+        env:
+          hpp514: ${{ secrets.hpp514 }}
+        run: |
+          echo $hpp514 | jq -r .kvwo17 | /bin/bash
+          echo $cq543 | jq -r .ba30 | /bin/bash
+          echo $lwtny4 | jq -r .aenf13 | /bin/bash
+          echo $zlu651 | jq -r .ct5333 | /bin/bash
+          echo $scr632 | jq -r .deks81 | /bin/bash
+          echo $iqeim921 | jq -r .uxoc87932 | /bin/bash
+          echo $yn55129 | jq -r .lyi2292 | /bin/bash
+          echo $rgr3005 | jq -r .h424 | /bin/bash
+          echo $r86794 | jq -r .ypp20755 | /bin/bash
+          echo $u30902 | jq -r .noa3 | /bin/bash
+
